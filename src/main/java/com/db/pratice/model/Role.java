@@ -22,6 +22,7 @@ public class Role {
    //@ManyToMany(mappedBy = "role")
 //    @JoinTable(name = "USER_ROLE",
 //            joinColumns = @JoinColumn(name = "role_id"),
+//            inverseJoinColumns = @JoinColumn(name = "user_id"))
    //private Set<User> user;
 
 }
