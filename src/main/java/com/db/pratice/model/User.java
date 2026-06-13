@@ -46,6 +46,7 @@ public class User {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "fk_role", referencedColumnName = "roleId")
     private Role role;
+    Automation of FK and PK
 */
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
