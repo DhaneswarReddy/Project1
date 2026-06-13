@@ -47,6 +47,7 @@ public class User {
     @JoinColumn(name = "fk_role", referencedColumnName = "roleId")
     private Role role;
     Automation of FK and PK
+    Agent will automatically create a new column named "fk_role" in the UserDetails table, which will serve as a foreign key referencing the primary key (roleId) of the Role table. This allows for a one-to-one relationship between the User and Role entities, where each user can be associated with one role, and each role can be associated with one user.
 */
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
