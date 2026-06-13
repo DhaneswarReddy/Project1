@@ -20,6 +20,8 @@ public class Role {
     private String roleName;
 
    //@ManyToMany(mappedBy = "role")
+//    @JoinTable(name = "USER_ROLE",
+//            joinColumns = @JoinColumn(name = "role_id"),
    //private Set<User> user;
 
 }
