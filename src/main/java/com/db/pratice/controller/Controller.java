@@ -58,7 +58,6 @@ public class Controller {
         public List<Role> getRoles(){
             return roleRepository.findAll();
         }
-    }
     /**
      * GET the Details of the request user
      * @return getAllUserDetails using repository method findAll()
